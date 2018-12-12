@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		31A75A6621C105110080CDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A75A6521C105110080CDA7 /* AppDelegate.swift */; };
-		31A75A6821C105110080CDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A75A6721C105110080CDA7 /* ViewController.swift */; };
+		31A75A6821C105110080CDA7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A75A6721C105110080CDA7 /* MainVC.swift */; };
 		31A75A6B21C105110080CDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A75A6921C105110080CDA7 /* Main.storyboard */; };
 		31A75A6D21C105180080CDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A75A6C21C105180080CDA7 /* Assets.xcassets */; };
 		31A75A7021C105180080CDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A75A6E21C105180080CDA7 /* LaunchScreen.storyboard */; };
+		31A75A7A21C10ABB0080CDA7 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A75A7921C10ABB0080CDA7 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31A75A6221C105110080CDA7 /* Window Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A75A6521C105110080CDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31A75A6721C105110080CDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31A75A6721C105110080CDA7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		31A75A6A21C105110080CDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31A75A6C21C105180080CDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31A75A6F21C105180080CDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31A75A7121C105180080CDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A75A7921C10ABB0080CDA7 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		31A75A6421C105110080CDA7 /* Window Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				31A75A7821C10A750080CDA7 /* Views */,
+				31A75A7721C1080B0080CDA7 /* Controllers */,
 				31A75A6521C105110080CDA7 /* AppDelegate.swift */,
-				31A75A6721C105110080CDA7 /* ViewController.swift */,
 				31A75A6921C105110080CDA7 /* Main.storyboard */,
 				31A75A6C21C105180080CDA7 /* Assets.xcassets */,
 				31A75A6E21C105180080CDA7 /* LaunchScreen.storyboard */,
 				31A75A7121C105180080CDA7 /* Info.plist */,
 			);
 			path = "Window Shopper";
+			sourceTree = "<group>";
+		};
+		31A75A7721C1080B0080CDA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31A75A6721C105110080CDA7 /* MainVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		31A75A7821C10A750080CDA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31A75A7921C10ABB0080CDA7 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A75A6821C105110080CDA7 /* ViewController.swift in Sources */,
+				31A75A7A21C10ABB0080CDA7 /* CurrencyTxtField.swift in Sources */,
+				31A75A6821C105110080CDA7 /* MainVC.swift in Sources */,
 				31A75A6621C105110080CDA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
